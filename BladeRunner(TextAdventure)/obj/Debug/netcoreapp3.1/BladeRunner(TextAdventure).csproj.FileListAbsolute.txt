@@ -1,0 +1,13 @@
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\bin\Debug\netcoreapp3.1\BladeRunner(TextAdventure).exe
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\bin\Debug\netcoreapp3.1\BladeRunner(TextAdventure).deps.json
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\bin\Debug\netcoreapp3.1\BladeRunner(TextAdventure).runtimeconfig.json
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\bin\Debug\netcoreapp3.1\BladeRunner(TextAdventure).runtimeconfig.dev.json
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\bin\Debug\netcoreapp3.1\BladeRunner(TextAdventure).dll
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\bin\Debug\netcoreapp3.1\BladeRunner(TextAdventure).pdb
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\obj\Debug\netcoreapp3.1\BladeRunner(TextAdventure).csproj.AssemblyReference.cache
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\obj\Debug\netcoreapp3.1\BladeRunner(TextAdventure).AssemblyInfoInputs.cache
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\obj\Debug\netcoreapp3.1\BladeRunner(TextAdventure).AssemblyInfo.cs
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\obj\Debug\netcoreapp3.1\BladeRunner(TextAdventure).csproj.CoreCompileInputs.cache
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\obj\Debug\netcoreapp3.1\BladeRunner(TextAdventure).dll
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\obj\Debug\netcoreapp3.1\BladeRunner(TextAdventure).pdb
+C:\Users\phoen\repos\BladeRunner(TextAdventure)\BladeRunner(TextAdventure)\obj\Debug\netcoreapp3.1\BladeRunner(TextAdventure).genruntimeconfig.cache

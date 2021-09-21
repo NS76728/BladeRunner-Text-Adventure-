@@ -18,6 +18,27 @@ namespace BladeRunner_TextAdventure_
             Options = options;
             Index = 0;
         }
+        public void DisplayTitle(bool isdisplayed)
+        {
+            if (isdisplayed == true)
+            {
+                string s = @"
+
+ ______         _______ ______  _______       ______ _     _ __   _ __   _ _______  ______
+ |_____] |      |_____| |     \ |______      |_____/ |     | | \  | | \  | |______ |_____/
+ |_____] |_____ |     | |_____/ |______      |    \_ |_____| |  \_| |  \_| |______ |    \_
+";
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(s);
+                Console.WriteLine("--------------------------------------------------------------------------------------------");
+                Console.WriteLine("");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            else
+            {
+                Console.WriteLine("");
+            }
+        }
 
         public void DisplayOptions()
         {
@@ -46,34 +67,13 @@ namespace BladeRunner_TextAdventure_
             ResetColor();
         }
 
-        public int Run()
+        public int Run(bool isdisplayed)
         {
             ConsoleKey keyPressed;
             do
             {
                 Clear();
-                /*
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("                   ||||||||    ||          ||||||||||  ||||||||    ||||||||||            |||||||||   ||      ||  ||      ||  ||      ||  ||||||||||  |||||||||   ");
-                Console.WriteLine("                   ||||  ||||  ||          ||      ||  |||    |||  |||                   |||    |||  ||      ||  ||||    ||  ||||    ||  |||         |||    |||  ");
-                Console.WriteLine("                   ||||||||||  ||          ||||||||||  ||      ||  ||||||||||            ||||||||||  ||      ||  ||  ||  ||  ||  ||  ||  ||||||||||  ||||||||||  ");
-                Console.WriteLine("                   ||||  ||||  ||          ||      ||  |||    |||  |||                   ||      ||  ||      ||  ||    ||||  ||    ||||  |||         ||      ||  ");
-                Console.WriteLine("                   ||||||||    ||||||||||  ||      ||  ||||||||    ||||||||||            ||      ||  ||||||||||  ||      ||  ||      ||  ||||||||||  ||      ||  ");
-                Console.WriteLine("------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-                Console.ForegroundColor = ConsoleColor.White;
-                */
-                string s = @"
-
- ______         _______ ______  _______       ______ _     _ __   _ __   _ _______  ______
- |_____] |      |_____| |     \ |______      |_____/ |     | | \  | | \  | |______ |_____/
- |_____] |_____ |     | |_____/ |______      |    \_ |_____| |  \_| |  \_| |______ |    \_
-";
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine(s);
-                Console.WriteLine("--------------------------------------------------------------------------------------------");
-                Console.WriteLine("");
-                Console.ForegroundColor = ConsoleColor.White;
-
+              DisplayTitle(isdisplayed);
                 DisplayOptions();
 
                 ConsoleKeyInfo keyInfo = ReadKey(true);

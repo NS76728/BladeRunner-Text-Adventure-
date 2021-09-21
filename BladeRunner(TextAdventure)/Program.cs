@@ -13,9 +13,7 @@ namespace BladeRunner_TextAdventure_
             var myGame = new Game();
             myGame.Start();
 
-            // Intro to C#: 29 - Making a Fancy Keyboard-Controlled Console Menu   
-
-
+              
         }
     }
 }
